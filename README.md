@@ -5,6 +5,8 @@ featuring model versioning with MLflow and real-time inference via FastAPI.
 
 ## Architecture
 
+<img width="1015" height="677" alt="image" src="https://github.com/user-attachments/assets/f15c308b-b0f6-4fea-8b3d-61efb1b26fa0" />
+
 FastAPI → MLflow Model Registry → Stored Models (mlruns)
 
 - FastAPI serves prediction API
