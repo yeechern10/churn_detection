@@ -5,7 +5,7 @@ services:
       - "5000:5000"
     volumes:
       - ./mlruns:/mlflow/mlruns
-
+    
   api:
     image: yee1098/churn-api
     ports:
