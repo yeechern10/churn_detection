@@ -5,7 +5,7 @@ featuring model versioning with MLflow and real-time inference via FastAPI.
 
 ## Architecture
 
-<img width="1015" height="677" alt="image" src="https://github.com/user-attachments/assets/f15c308b-b0f6-4fea-8b3d-61efb1b26fa0" />
+<img width="1535" height="1024" alt="ChatGPT Image Aug 23, 2026, 06_43_33 PM" src="https://github.com/user-attachments/assets/7b5f070d-d322-43e1-a48c-4f490c011691" />
 
 FastAPI → MLflow Model Registry → Stored Models (mlruns)
 
