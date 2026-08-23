@@ -1,0 +1,44 @@
+global:
+  resolve_timeout: 5m
+  smtp_smarthost: 'smtp-mail.outlook.com:587'
+  smtp_from: '10yeechern@gmail.com'
+  smtp_auth_username: 'yeechern10@outlook.com'
+  smtp_auth_password_file: '/etc/alertmanager/secrets/smtp_password'
+
+route:
+  receiver: default
+
+  group_by:
+    - alertname
+
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+
+  routes:
+    - match:
+        severity: warning
+      receiver: warning
+
+    - match:
+        severity: critical
+      receiver: critical
+
+receivers:
+
+  - name: default    
+    email_configs:
+      - to: 'yeechern10@outlook.com'
+
+  - name: warning
+    email_configs:
+      - to: 'yeechern10@outlook.com'
+
+  - name: critical
+    email_configs:
+      - to: 'yeechern10@outlook.com'
+
+    telegram_configs:
+      - api_url: "https://api.telegram.org"
+        bot_token_file: "/etc/alertmanager/secrets/telegram_bot_token"
+        chat_id: 6533356305

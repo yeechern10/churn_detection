@@ -18,6 +18,8 @@ import re
 import json
 import argparse
 
+from configuration import MLFLOW_TRACKING_URI, MODEL_NAME, EXPERIMENT_NAME
+
 def find_best_threshold(y_true, y_proba):
     best_t = 0
     best_f1 = 0
@@ -100,32 +102,40 @@ def mlflow_log(model,Y_train, X_train, parameters, mlflow_experiment, class_repo
         
         mlflow.log_input(train_ds, context="training")
         
-        mlflow.sklearn.log_model(model, parameters['model'], signature=signature, pyfunc_predict_fn="predict_proba")
+        model_info = mlflow.sklearn.log_model(model, parameters['model'], signature=signature, pyfunc_predict_fn="predict_proba")
         
         mlflow.log_dict(schema, "schema.json")
+    
+        print(f"Model logged to MLFlow with model uri: {model_info.model_uri} and run_id: {mlflow.active_run().info.run_id}")
+
     
 def ml_pipeline(schema, model, Y_train, X_train, X_test, Y_test, parameters, mlflow_experiment, version, dataset_name):
     parameters['model'] = model.__class__.__name__
     model = build_fit_pipeline(schema, model, Y_train, X_train)
     class_report_dict , parameters['best_threshold'] = evaluate_model(model, Y_test, X_test)
-    mlflow_log(model, Y_train, X_train, parameters, mlflow_experiment, class_report_dict, version, dataset_name,schema)
+    model_info = mlflow_log(model, Y_train, X_train, parameters, mlflow_experiment, class_report_dict, version, dataset_name,schema)
+    return model_info
 
 
-def register_best_model(mlflow_experiment, metric):
-    all_runs_df = mlflow.search_runs(experiment_ids=[mlflow_experiment.experiment_id], order_by=[f"metrics.{metric} DESC"])
-    best_model = all_runs_df.iloc[0]
-    best_run_id = best_model['run_id']
-    model_name = best_model['params.model']
-    mlflow.register_model(
-        model_uri=f"runs:/{best_run_id}/{model_name}", 
-        name="customer-churn-model"
+def register_best_model(exp_id, metric):
+    all_logged_models = mlflow.search_logged_models(experiment_ids=[f"{exp_id}"], order_by=[{"field_name": f"metrics.{metric}", "ascending": False}])
+    best_model = all_logged_models.iloc[0]
+    best_model_id = best_model["model_id"]
+    best_model_uri = f"models:/{best_model_id}"
+    mv = mlflow.register_model(
+        model_uri=best_model_uri, 
+        name= MODEL_NAME,
         )
-    print(f"Best model registered: {model_name} from run {best_run_id} with {metric} = {best_model[f'metrics.{metric}']}")
+    
+    client = mlflow.tracking.MlflowClient()
+    client.set_registered_model_alias(name=MODEL_NAME, alias="champion", version=mv.version)
+    
+    print(f"Best model registered: {MODEL_NAME} from run {best_model_uri}")
 
 def main():
     parser = argparse.ArgumentParser(description="Run model experiments for churn detection")
     parser.add_argument('--dataset-version', type=str, help='Specify the dataset version to use (e.g., v1, v2). If not provided, the latest version will be used.')
-    parser.add_argument('--experiment-name', type=str, default="churn_detection", help='Specify the MLflow experiment name. Default is "churn_detection".')
+    parser.add_argument('--experiment-name', type=str, default=EXPERIMENT_NAME, help='Specify the MLflow experiment name. Default is "churn_detection".')
     parser.add_argument('--track-uri', type=str, help='Specify the MLflow tracking URI. Default is "http://localhost:5000".')
     parser.add_argument('--metric', type=str, default="recall", choices=["f1", "precision", "recall", "accuracy"], help='Specify the metric to optimize for model registration. Default is "recall".')
     
@@ -157,12 +167,11 @@ def main():
 
     schema = json.load(open(dataset_dir / "schema.json", "r"))
 
-    if os.getenv("MLFLOW_TRACKING_URI"):
-        track_uri = os.getenv("MLFLOW_TRACKING_URI")
-    elif args.track_uri:
-        track_uri = args.track_uri  
+    
+    if args.track_uri:
+        track_uri = args.track_uri
     else:
-        track_uri = "http://localhost:5000"
+        track_uri = MLFLOW_TRACKING_URI
 
     mlflow.set_tracking_uri(track_uri)
     exp = mlflow.set_experiment(args.experiment_name)
@@ -203,7 +212,7 @@ def main():
             model = LogisticRegression(**parameters)
             ml_pipeline(schema, model, Y_train, X_train, X_test, Y_test, parameters, exp, version, dataset_name)
             
-    register_best_model(exp, args.metric)
+    register_best_model(exp.experiment_id, args.metric)
 
 if __name__ == "__main__":
     main()

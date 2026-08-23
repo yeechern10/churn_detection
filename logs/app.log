@@ -1,0 +1,246 @@
+2026-08-22 11:54:35,178 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 12:11:46,499 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 12:12:33,291 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 12:13:29,503 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 12:34:22,003 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 12:41:27,990 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 13:10:34,154 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 13:10:34,156 - INFO - Loading model...
+2026-08-22 13:10:34,156 - INFO - Trying to connect MLflow... attempt 1
+2026-08-22 13:14:48,028 - INFO - Trying to connect MLflow... attempt 2
+2026-08-22 13:18:59,379 - INFO - Trying to connect MLflow... attempt 3
+2026-08-22 13:23:10,715 - INFO - Trying to connect MLflow... attempt 4
+2026-08-22 13:27:22,779 - INFO - Trying to connect MLflow... attempt 5
+2026-08-22 13:31:33,998 - INFO - Trying to connect MLflow... attempt 6
+2026-08-22 13:35:45,403 - INFO - Trying to connect MLflow... attempt 7
+2026-08-22 13:39:57,835 - INFO - Trying to connect MLflow... attempt 8
+2026-08-22 13:44:09,531 - INFO - Trying to connect MLflow... attempt 9
+2026-08-22 13:48:21,746 - INFO - Trying to connect MLflow... attempt 10
+2026-08-22 13:52:33,463 - INFO - No champion found, fallback to latest
+2026-08-22 13:56:45,090 - INFO - No champion found, fallback to latest
+2026-08-22 14:00:56,649 - INFO - No champion found, fallback to latest
+2026-08-22 14:05:06,460 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 14:05:06,461 - INFO - Loading model...
+2026-08-22 14:05:06,461 - INFO - Trying search model in MLflow... attempt 1
+2026-08-22 14:05:07,366 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:07,367 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:07,367 - INFO - Trying search model in MLflow... attempt 2
+2026-08-22 14:05:07,647 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:07,647 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:07,648 - INFO - Trying search model in MLflow... attempt 3
+2026-08-22 14:05:07,910 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:07,910 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:07,910 - INFO - Trying search model in MLflow... attempt 4
+2026-08-22 14:05:08,180 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:08,180 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:08,180 - INFO - Trying search model in MLflow... attempt 5
+2026-08-22 14:05:08,456 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:08,457 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:08,457 - INFO - Trying search model in MLflow... attempt 6
+2026-08-22 14:05:08,737 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:08,738 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:08,738 - INFO - Trying search model in MLflow... attempt 7
+2026-08-22 14:05:09,009 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:09,010 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:09,010 - INFO - Trying search model in MLflow... attempt 8
+2026-08-22 14:05:09,290 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:09,291 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:09,291 - INFO - Trying search model in MLflow... attempt 9
+2026-08-22 14:05:09,571 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:09,572 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:09,572 - INFO - Trying search model in MLflow... attempt 10
+2026-08-22 14:05:09,850 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:05:09,850 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:05:09,850 - ERROR - Failed to find model 'customer-churn-model' with 'champion' alias after multiple attempts
+2026-08-22 14:07:05,594 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 14:07:05,595 - INFO - Loading model...
+2026-08-22 14:07:05,596 - INFO - Trying search model in MLflow... attempt 1
+2026-08-22 14:07:06,386 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:06,386 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:06,386 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:06,386 - INFO - Trying search model in MLflow... attempt 2
+2026-08-22 14:07:06,650 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:06,650 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:06,650 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:06,650 - INFO - Trying search model in MLflow... attempt 3
+2026-08-22 14:07:06,938 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:06,938 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:06,938 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:06,938 - INFO - Trying search model in MLflow... attempt 4
+2026-08-22 14:07:07,210 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:07,210 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:07,211 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:07,211 - INFO - Trying search model in MLflow... attempt 5
+2026-08-22 14:07:07,480 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:07,481 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:07,481 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:07,481 - INFO - Trying search model in MLflow... attempt 6
+2026-08-22 14:07:07,774 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:07,774 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:07,775 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:07,775 - INFO - Trying search model in MLflow... attempt 7
+2026-08-22 14:07:08,041 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:08,041 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:08,041 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:08,041 - INFO - Trying search model in MLflow... attempt 8
+2026-08-22 14:07:08,320 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:08,320 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:08,320 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:08,320 - INFO - Trying search model in MLflow... attempt 9
+2026-08-22 14:07:08,613 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:08,613 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:08,613 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:08,614 - INFO - Trying search model in MLflow... attempt 10
+2026-08-22 14:07:08,885 - INFO - Version: champion, Aliases: 1
+2026-08-22 14:07:08,885 - ERROR - No version with 'champion' alias found for model 'customer-churn-model'
+2026-08-22 14:07:08,885 - INFO - Available aliases: {'champion': '1'}
+2026-08-22 14:07:08,885 - ERROR - Failed to find model 'customer-churn-model' with 'champion' alias after multiple attempts
+2026-08-22 14:10:44,961 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-22 14:10:44,962 - INFO - Loading model...
+2026-08-22 14:10:44,963 - INFO - Trying search model in MLflow... attempt 1
+2026-08-22 14:10:45,714 - INFO - Found champion version: 1
+2026-08-22 14:10:45,977 - INFO - Trying to load model from MLflow attempt 1, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:10:49,118 - INFO - Trying to load model from MLflow attempt 2, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:10:52,033 - INFO - Trying to load model from MLflow attempt 3, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:10:54,950 - INFO - Trying to load model from MLflow attempt 4, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:10:57,926 - INFO - Trying to load model from MLflow attempt 5, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:11:00,860 - INFO - Trying to load model from MLflow attempt 6, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:11:03,809 - INFO - Trying to load model from MLflow attempt 7, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:11:06,699 - INFO - Trying to load model from MLflow attempt 8, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:11:09,604 - INFO - Trying to load model from MLflow attempt 9, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-22 14:11:12,475 - INFO - Trying to load model from MLflow attempt 10, uri: mlflow-artifacts:/ec3182ae940343519fa78f7cb2368929/1d45a453177842d1b64c8a011b3e6599/artifacts
+2026-08-23 05:04:21,305 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 05:04:21,306 - INFO - Loading model...
+2026-08-23 05:04:21,307 - INFO - Trying search model in MLflow... attempt 1
+2026-08-23 05:04:22,117 - INFO - Found champion version: 6
+2026-08-23 05:04:22,416 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-23 05:04:28,090 - INFO - Creating request model from schema...
+2026-08-23 05:04:28,092 - INFO - Request model created successfully
+2026-08-23 05:04:28,093 - INFO - Model loaded
+2026-08-23 05:08:05,679 - INFO - Shutting down...
+2026-08-23 05:08:22,652 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 05:08:22,653 - INFO - Loading model...
+2026-08-23 05:08:22,654 - INFO - Trying search model in MLflow... attempt 1
+2026-08-23 05:08:23,431 - INFO - Found champion version: 6
+2026-08-23 05:08:23,703 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-23 05:08:27,473 - INFO - Downloading schema.json from MLflow run_id: a2a208dad5b24ce1a8acc10dc8c7b1e9 to temporary directory: /tmp/tmp9970pp5s
+2026-08-23 05:08:28,981 - INFO - Schema downloaded to: /tmp/tmp9970pp5s/schema.json
+2026-08-23 05:08:28,982 - INFO - Schema loaded: {'features': {'numerical': [{'name': 'tenure', 'type': 'int64'}, {'name': 'MonthlyCharges', 'type': 'float64'}, {'name': 'TotalCharges', 'type': 'float64'}], 'categorical': [{'name': 'gender', 'values': ['Female', 'Male']}, {'name': 'SeniorCitizen', 'values': [0, 1]}, {'name': 'Partner', 'values': ['Yes', 'No']}, {'name': 'Dependents', 'values': ['No', 'Yes']}, {'name': 'PhoneService', 'values': ['No', 'Yes']}, {'name': 'MultipleLines', 'values': ['No phone service', 'No', 'Yes']}, {'name': 'InternetService', 'values': ['DSL', 'Fiber optic', 'No']}, {'name': 'OnlineSecurity', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'OnlineBackup', 'values': ['Yes', 'No', 'No internet service']}, {'name': 'DeviceProtection', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'TechSupport', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingTV', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingMovies', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'Contract', 'values': ['Month-to-month', 'One year', 'Two year']}, {'name': 'PaperlessBilling', 'values': ['Yes', 'No']}, {'name': 'PaymentMethod', 'values': ['Electronic check', 'Mailed check', 'Bank transfer (automatic)', 'Credit card (automatic)']}, {'name': 'SeniorCitizen', 'values': [0, 1]}]}, 'target': ['Churn'], 'feature_engineering': {'numerical': {'scaler': 'StandardScaler'}, 'categorical': {'encoding': 'OneHotEncoder', 'handle_unknown': 'ignore'}}, 'threshold': 0.2799999999999999}
+2026-08-23 05:08:28,982 - INFO - Creating request model from schema...
+2026-08-23 05:08:28,984 - INFO - Request model created successfully
+2026-08-23 05:08:28,984 - INFO - Model loaded
+2026-08-23 05:42:29,092 - INFO - Shutting down...
+2026-08-23 13:59:56,777 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 14:00:33,665 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 14:00:33,714 - INFO - Loading model...
+2026-08-23 14:00:33,715 - INFO - Trying search model in MLflow... attempt 1
+2026-08-23 14:00:36,438 - INFO - Found champion version: 6
+2026-08-23 14:00:36,729 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-23 14:00:43,276 - INFO - Downloading schema.json from MLflow run_id: a2a208dad5b24ce1a8acc10dc8c7b1e9 to temporary directory: C:\Users\yeech\AppData\Local\Temp\tmp50qljw7c
+2026-08-23 14:00:44,800 - INFO - Schema downloaded to: C:\Users\yeech\AppData\Local\Temp\tmp50qljw7c\schema.json
+2026-08-23 14:00:44,800 - INFO - Schema loaded: {'features': {'numerical': [{'name': 'tenure', 'type': 'int64'}, {'name': 'MonthlyCharges', 'type': 'float64'}, {'name': 'TotalCharges', 'type': 'float64'}], 'categorical': [{'name': 'gender', 'values': ['Female', 'Male']}, {'name': 'SeniorCitizen', 'values': [0, 1]}, {'name': 'Partner', 'values': ['Yes', 'No']}, {'name': 'Dependents', 'values': ['No', 'Yes']}, {'name': 'PhoneService', 'values': ['No', 'Yes']}, {'name': 'MultipleLines', 'values': ['No phone service', 'No', 'Yes']}, {'name': 'InternetService', 'values': ['DSL', 'Fiber optic', 'No']}, {'name': 'OnlineSecurity', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'OnlineBackup', 'values': ['Yes', 'No', 'No internet service']}, {'name': 'DeviceProtection', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'TechSupport', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingTV', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingMovies', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'Contract', 'values': ['Month-to-month', 'One year', 'Two year']}, {'name': 'PaperlessBilling', 'values': ['Yes', 'No']}, {'name': 'PaymentMethod', 'values': ['Electronic check', 'Mailed check', 'Bank transfer (automatic)', 'Credit card (automatic)']}, {'name': 'SeniorCitizen', 'values': [0, 1]}]}, 'target': ['Churn'], 'feature_engineering': {'numerical': {'scaler': 'StandardScaler'}, 'categorical': {'encoding': 'OneHotEncoder', 'handle_unknown': 'ignore'}}, 'threshold': 0.2799999999999999}
+2026-08-23 14:00:44,801 - INFO - Creating request model from schema...
+2026-08-23 14:00:44,803 - INFO - Request model created successfully
+2026-08-23 14:00:44,803 - INFO - Model loaded
+2026-08-23 14:13:51,558 - INFO - Shutting down...
+2026-08-23 14:13:54,591 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 14:13:54,601 - INFO - Loading model...
+2026-08-23 14:13:54,602 - INFO - Trying search model in MLflow... attempt 1
+2026-08-23 14:13:55,691 - INFO - Found champion version: 6
+2026-08-23 14:13:55,976 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-23 14:13:58,881 - INFO - Downloading schema.json from MLflow run_id: a2a208dad5b24ce1a8acc10dc8c7b1e9 to temporary directory: C:\Users\yeech\AppData\Local\Temp\tmp2pguupx0
+2026-08-23 14:14:00,406 - INFO - Schema downloaded to: C:\Users\yeech\AppData\Local\Temp\tmp2pguupx0\schema.json
+2026-08-23 14:14:00,406 - INFO - Schema loaded: {'features': {'numerical': [{'name': 'tenure', 'type': 'int64'}, {'name': 'MonthlyCharges', 'type': 'float64'}, {'name': 'TotalCharges', 'type': 'float64'}], 'categorical': [{'name': 'gender', 'values': ['Female', 'Male']}, {'name': 'SeniorCitizen', 'values': [0, 1]}, {'name': 'Partner', 'values': ['Yes', 'No']}, {'name': 'Dependents', 'values': ['No', 'Yes']}, {'name': 'PhoneService', 'values': ['No', 'Yes']}, {'name': 'MultipleLines', 'values': ['No phone service', 'No', 'Yes']}, {'name': 'InternetService', 'values': ['DSL', 'Fiber optic', 'No']}, {'name': 'OnlineSecurity', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'OnlineBackup', 'values': ['Yes', 'No', 'No internet service']}, {'name': 'DeviceProtection', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'TechSupport', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingTV', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingMovies', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'Contract', 'values': ['Month-to-month', 'One year', 'Two year']}, {'name': 'PaperlessBilling', 'values': ['Yes', 'No']}, {'name': 'PaymentMethod', 'values': ['Electronic check', 'Mailed check', 'Bank transfer (automatic)', 'Credit card (automatic)']}, {'name': 'SeniorCitizen', 'values': [0, 1]}]}, 'target': ['Churn'], 'feature_engineering': {'numerical': {'scaler': 'StandardScaler'}, 'categorical': {'encoding': 'OneHotEncoder', 'handle_unknown': 'ignore'}}, 'threshold': 0.2799999999999999}
+2026-08-23 14:14:00,407 - INFO - Creating request model from schema...
+2026-08-23 14:14:00,409 - INFO - Request model created successfully
+2026-08-23 14:14:00,409 - INFO - Model loaded
+2026-08-23 14:15:01,779 - INFO - Shutting down...
+2026-08-23 14:15:04,408 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 14:15:04,419 - INFO - Loading model...
+2026-08-23 14:15:04,420 - INFO - Trying search model in MLflow... attempt 1
+2026-08-23 14:15:05,420 - INFO - Found champion version: 6
+2026-08-23 14:15:05,708 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-23 14:15:08,771 - INFO - Downloading schema.json from MLflow run_id: a2a208dad5b24ce1a8acc10dc8c7b1e9 to temporary directory: C:\Users\yeech\AppData\Local\Temp\tmp7nb9jcpf
+2026-08-23 14:15:10,335 - INFO - Schema downloaded to: C:\Users\yeech\AppData\Local\Temp\tmp7nb9jcpf\schema.json
+2026-08-23 14:15:10,335 - INFO - Schema loaded: {'features': {'numerical': [{'name': 'tenure', 'type': 'int64'}, {'name': 'MonthlyCharges', 'type': 'float64'}, {'name': 'TotalCharges', 'type': 'float64'}], 'categorical': [{'name': 'gender', 'values': ['Female', 'Male']}, {'name': 'SeniorCitizen', 'values': [0, 1]}, {'name': 'Partner', 'values': ['Yes', 'No']}, {'name': 'Dependents', 'values': ['No', 'Yes']}, {'name': 'PhoneService', 'values': ['No', 'Yes']}, {'name': 'MultipleLines', 'values': ['No phone service', 'No', 'Yes']}, {'name': 'InternetService', 'values': ['DSL', 'Fiber optic', 'No']}, {'name': 'OnlineSecurity', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'OnlineBackup', 'values': ['Yes', 'No', 'No internet service']}, {'name': 'DeviceProtection', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'TechSupport', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingTV', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingMovies', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'Contract', 'values': ['Month-to-month', 'One year', 'Two year']}, {'name': 'PaperlessBilling', 'values': ['Yes', 'No']}, {'name': 'PaymentMethod', 'values': ['Electronic check', 'Mailed check', 'Bank transfer (automatic)', 'Credit card (automatic)']}, {'name': 'SeniorCitizen', 'values': [0, 1]}]}, 'target': ['Churn'], 'feature_engineering': {'numerical': {'scaler': 'StandardScaler'}, 'categorical': {'encoding': 'OneHotEncoder', 'handle_unknown': 'ignore'}}, 'threshold': 0.2799999999999999}
+2026-08-23 14:15:10,336 - INFO - Creating request model from schema...
+2026-08-23 14:15:10,337 - INFO - Request model created successfully
+2026-08-23 14:15:10,338 - INFO - Model loaded
+2026-08-23 14:15:54,246 - INFO - Shutting down...
+2026-08-23 06:16:13,282 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-23 06:16:13,283 - INFO - Loading model...
+2026-08-23 06:16:13,283 - INFO - Trying search model in MLflow... attempt 1
+2026-08-23 06:16:14,167 - INFO - Found champion version: 6
+2026-08-23 06:16:14,424 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-23 06:16:17,877 - INFO - Downloading schema.json from MLflow run_id: a2a208dad5b24ce1a8acc10dc8c7b1e9 to temporary directory: /tmp/tmps74wqq5n
+2026-08-23 06:16:19,487 - INFO - Schema downloaded to: /tmp/tmps74wqq5n/schema.json
+2026-08-23 06:16:19,488 - INFO - Schema loaded: {'features': {'numerical': [{'name': 'tenure', 'type': 'int64'}, {'name': 'MonthlyCharges', 'type': 'float64'}, {'name': 'TotalCharges', 'type': 'float64'}], 'categorical': [{'name': 'gender', 'values': ['Female', 'Male']}, {'name': 'SeniorCitizen', 'values': [0, 1]}, {'name': 'Partner', 'values': ['Yes', 'No']}, {'name': 'Dependents', 'values': ['No', 'Yes']}, {'name': 'PhoneService', 'values': ['No', 'Yes']}, {'name': 'MultipleLines', 'values': ['No phone service', 'No', 'Yes']}, {'name': 'InternetService', 'values': ['DSL', 'Fiber optic', 'No']}, {'name': 'OnlineSecurity', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'OnlineBackup', 'values': ['Yes', 'No', 'No internet service']}, {'name': 'DeviceProtection', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'TechSupport', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingTV', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingMovies', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'Contract', 'values': ['Month-to-month', 'One year', 'Two year']}, {'name': 'PaperlessBilling', 'values': ['Yes', 'No']}, {'name': 'PaymentMethod', 'values': ['Electronic check', 'Mailed check', 'Bank transfer (automatic)', 'Credit card (automatic)']}, {'name': 'SeniorCitizen', 'values': [0, 1]}]}, 'target': ['Churn'], 'feature_engineering': {'numerical': {'scaler': 'StandardScaler'}, 'categorical': {'encoding': 'OneHotEncoder', 'handle_unknown': 'ignore'}}, 'threshold': 0.2799999999999999}
+2026-08-23 06:16:19,488 - INFO - Creating request model from schema...
+2026-08-23 06:16:19,491 - INFO - Request model created successfully
+2026-08-23 06:16:19,491 - INFO - Model loaded
+2026-08-23 07:24:35,376 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:35,408 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:47,661 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:47,665 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:48,003 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:48,007 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:48,354 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:48,358 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:48,587 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:48,592 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:48,767 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:48,771 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:48,932 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:48,936 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:49,123 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:49,127 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:49,299 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:49,303 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:49,490 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:49,494 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:49,651 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:49,655 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:49,826 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:49,830 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:50,010 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:50,014 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:50,190 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:50,194 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:50,385 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:50,389 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:24:50,566 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:24:50,570 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:09,190 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:09,193 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:09,670 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:09,675 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:10,194 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:10,199 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:10,839 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:10,843 - INFO - Predicted probability: 0.34791579952046775, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:18,005 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:18,010 - INFO - Predicted probability: 0.3258167881483175, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:18,373 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:18,377 - INFO - Predicted probability: 0.3258167881483175, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:18,610 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:18,614 - INFO - Predicted probability: 0.3258167881483175, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:18,793 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:18,797 - INFO - Predicted probability: 0.3258167881483175, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:23,207 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:23,211 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:23,378 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:23,382 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:23,567 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:23,571 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:23,778 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:23,781 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:23,979 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:23,983 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:24,159 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:24,162 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:26,883 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:26,886 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:27,091 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:27,095 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 07:26:27,250 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-23 07:26:27,254 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1

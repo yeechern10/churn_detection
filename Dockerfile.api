@@ -20,12 +20,6 @@ COPY src ./src
 # install local package
 RUN uv pip install -e .
 
-# copy mlflow data
-COPY mlruns ./mlruns
-
-# set env variable for mlflow tracking uri
-ENV MLFLOW_TRACKING_URI=http://mlflow:5000
-
 # expose port
 EXPOSE 8000
 

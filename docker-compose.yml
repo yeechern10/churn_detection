@@ -1,18 +1,72 @@
-services:
-  mlflow:
-    image: yee1098/churn-mlflow
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./mlruns:/mlflow/mlruns
-    
+services:    
   api:
-    image: yee1098/churn-api
+    build:
+      context: .
+      dockerfile: Dockerfile.api
     ports:
       - "8000:8000"
     volumes:
       - ./logs:/app/logs
-    environment:
-      MLFLOW_TRACKING_URI: http://mlflow:5000
-    depends_on:
-      - mlflow
+      - .env:/app/.env
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitor/prometheus/prometheus.yaml:/etc/prometheus/prometheus.yaml:ro
+      - prometheus_data:/prometheus
+      - ./monitor/prometheus/rules:/etc/prometheus/rules:ro
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yaml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.enable-lifecycle'
+
+  node-exporter:
+    image: prom/node-exporter
+    profiles:
+      - linux
+    container_name: node-exporter
+    restart: unless-stopped
+
+    pid: host
+
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--path.rootfs=/rootfs'
+
+    ports:
+      - "9100:9100"
+
+  dcgm-exporter:
+    image: nvcr.io/nvidia/k8s/dcgm-exporter:4.6.0-4.8.3-distroless
+    profiles:
+      - nvidia
+    gpus: all
+    cap_add:
+      - SYS_ADMIN
+    ports:
+      - "9400:9400"
+
+  alertmanager:
+    image: prom/alertmanager
+    volumes:
+      - ./monitor/alertmanager/alertmanager.yaml:/etc/alertmanager/alertmanager.yaml
+      - ./monitor/alertmanager/secrets:/etc/alertmanager/secrets
+    command:
+      - "--config.file=/etc/alertmanager/alertmanager.yaml"
+    ports:
+      - "9093:9093"
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+
+volumes:
+  prometheus_data:
