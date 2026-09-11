@@ -34,7 +34,7 @@ groups:
 
   - name: application_recording
     rules:
-      - record: instance_endpoint:http_requests_latency_seconds:avg
+      - record: instance_endpoint:http_requests_latency_seconds:p95_5m
         expr: histogram_quantile(0.95, sum(rate(http_requests_latency_seconds_bucket[5m])) by (le, instance, endpoint))
 
       - record: endpoint:http_requests_total:max

@@ -244,3 +244,273 @@
 2026-08-23 07:26:27,095 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
 2026-08-23 07:26:27,250 - WARNING - Positive class index not found, defaulting to index 1
 2026-08-23 07:26:27,254 - INFO - Predicted probability: 0.36806663528400224, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-23 12:35:22,998 - INFO - Shutting down...
+2026-08-24 04:22:43,002 - INFO - Using MLflow tracking URI: https://dagshub.com/yeeislazy/churn_detection.mlflow/
+2026-08-24 04:22:43,005 - INFO - Loading model...
+2026-08-24 04:22:43,005 - INFO - Trying search model in MLflow... attempt 1
+2026-08-24 04:22:43,782 - INFO - Found champion version: 6
+2026-08-24 04:22:44,040 - INFO - Trying to load model from MLflow attempt 1, uri: models:/m-c4ad7790e60744009d614e7543b1f00e
+2026-08-24 04:22:46,894 - INFO - Downloading schema.json from MLflow run_id: a2a208dad5b24ce1a8acc10dc8c7b1e9 to temporary directory: /tmp/tmp26c6hgxl
+2026-08-24 04:22:48,398 - INFO - Schema downloaded to: /tmp/tmp26c6hgxl/schema.json
+2026-08-24 04:22:48,398 - INFO - Schema loaded: {'features': {'numerical': [{'name': 'tenure', 'type': 'int64'}, {'name': 'MonthlyCharges', 'type': 'float64'}, {'name': 'TotalCharges', 'type': 'float64'}], 'categorical': [{'name': 'gender', 'values': ['Female', 'Male']}, {'name': 'SeniorCitizen', 'values': [0, 1]}, {'name': 'Partner', 'values': ['Yes', 'No']}, {'name': 'Dependents', 'values': ['No', 'Yes']}, {'name': 'PhoneService', 'values': ['No', 'Yes']}, {'name': 'MultipleLines', 'values': ['No phone service', 'No', 'Yes']}, {'name': 'InternetService', 'values': ['DSL', 'Fiber optic', 'No']}, {'name': 'OnlineSecurity', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'OnlineBackup', 'values': ['Yes', 'No', 'No internet service']}, {'name': 'DeviceProtection', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'TechSupport', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingTV', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'StreamingMovies', 'values': ['No', 'Yes', 'No internet service']}, {'name': 'Contract', 'values': ['Month-to-month', 'One year', 'Two year']}, {'name': 'PaperlessBilling', 'values': ['Yes', 'No']}, {'name': 'PaymentMethod', 'values': ['Electronic check', 'Mailed check', 'Bank transfer (automatic)', 'Credit card (automatic)']}, {'name': 'SeniorCitizen', 'values': [0, 1]}]}, 'target': ['Churn'], 'feature_engineering': {'numerical': {'scaler': 'StandardScaler'}, 'categorical': {'encoding': 'OneHotEncoder', 'handle_unknown': 'ignore'}}, 'threshold': 0.2799999999999999}
+2026-08-24 04:22:48,399 - INFO - Creating request model from schema...
+2026-08-24 04:22:48,401 - INFO - Request model created successfully
+2026-08-24 04:22:48,401 - INFO - Model loaded
+2026-08-24 04:24:19,833 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:19,845 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:20,172 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:20,176 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:20,599 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:20,604 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:20,797 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:20,800 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:20,991 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:20,995 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:21,186 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:21,190 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:21,378 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:21,381 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:21,546 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:21,550 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:21,726 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:21,730 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:21,912 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:21,916 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:22,100 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:22,104 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:22,250 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:22,254 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:22,430 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:22,434 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:22,663 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:22,666 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:22,889 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:22,893 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:23,075 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:23,080 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:24,492 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:24,496 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:24,666 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:24,669 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:24,845 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:24,848 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:25,040 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:25,045 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:25,228 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:25,231 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:25,446 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:25,449 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:25,625 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:25,629 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:25,821 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:25,825 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:26,016 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:26,020 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:26,217 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:26,221 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:26,421 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:26,425 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:26,623 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:26,627 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:26,886 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:26,890 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:27,072 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:27,075 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:27,283 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:27,287 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:27,471 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:27,474 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:27,673 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:27,676 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:27,875 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:27,879 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:28,085 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:28,089 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:28,295 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:28,299 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:28,512 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:28,516 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:28,707 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:28,712 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:28,896 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:28,900 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:29,112 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:29,116 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:29,307 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:29,311 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:29,525 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:29,529 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:29,743 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:29,746 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:29,945 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:29,949 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:30,155 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:30,159 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:30,373 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:30,377 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:30,583 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:30,590 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:30,792 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:30,795 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:31,002 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:31,006 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:31,228 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:31,232 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:31,445 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:31,449 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:31,662 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:31,666 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:31,873 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:31,877 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:32,083 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:32,086 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:32,299 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:32,303 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:32,510 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:32,515 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:32,712 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:32,716 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:32,915 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:32,919 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:33,125 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:33,129 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:33,342 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:33,346 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:33,575 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:33,579 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:33,800 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:33,805 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:34,011 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:34,014 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:34,220 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:34,224 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:34,437 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:34,441 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:34,633 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:34,636 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:34,843 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:34,846 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:35,061 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:35,064 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:35,285 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:35,289 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:35,489 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:35,493 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:35,712 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:35,716 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:35,931 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:35,935 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:36,162 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:36,167 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:36,366 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:36,369 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:36,567 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:36,571 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:36,777 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:36,781 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:37,018 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:37,021 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:24:37,235 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:24:37,239 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:03,381 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:03,384 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:03,572 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:03,576 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:03,751 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:03,755 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:03,954 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:03,959 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:04,149 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:04,153 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:04,345 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:04,349 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:04,517 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:04,521 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:04,693 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:04,696 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:04,869 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:04,873 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:05,072 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:05,076 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:05,259 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:05,263 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:05,446 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:05,452 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:05,656 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:05,660 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:05,860 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:05,864 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:06,061 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:06,065 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:06,249 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:06,254 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:06,474 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:06,478 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:06,669 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:06,673 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:06,864 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:06,868 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:07,081 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:07,085 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:07,261 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:07,264 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:07,487 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:07,491 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:07,666 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:07,670 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:17,433 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:17,438 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:17,620 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:17,624 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:17,821 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:17,825 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:18,025 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:18,029 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:18,219 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:18,225 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:18,407 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:18,412 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:18,601 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:18,605 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:18,804 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:18,808 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:19,015 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:19,018 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:19,232 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:19,236 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:19,426 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:19,430 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:19,675 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:19,679 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:19,981 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:19,985 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:20,206 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:20,210 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:20,402 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:20,406 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:20,620 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:20,624 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:20,829 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:20,833 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:21,031 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:21,035 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:21,252 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:21,255 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:21,446 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:21,451 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:25:21,662 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:25:21,666 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:08,965 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:08,971 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:09,485 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:09,489 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:09,701 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:09,705 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:09,881 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:09,885 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:13,521 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:13,527 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:13,722 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:13,725 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
+2026-08-24 04:26:13,902 - WARNING - Positive class index not found, defaulting to index 1
+2026-08-24 04:26:13,906 - INFO - Predicted probability: 0.35723956582269795, Threshold: 0.2799999999999999, Prediction: 1
