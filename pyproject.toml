@@ -10,6 +10,7 @@ dependencies = [
     "kagglehub>=1.0.0",
     "mlflow>=3.11.1",
     "pandas>=2.3.3",
+    "polyfactory>=3.3.0",
     "prometheus-client>=0.26.0",
     "pydantic>=2.13.3",
     "pytest>=9.0.3",
