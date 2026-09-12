@@ -24,8 +24,6 @@ services:
 
   node-exporter:
     image: prom/node-exporter
-    profiles:
-      - linux
     container_name: node-exporter
     restart: unless-stopped
 
@@ -46,8 +44,6 @@ services:
 
   dcgm-exporter:
     image: nvcr.io/nvidia/k8s/dcgm-exporter:4.6.0-4.8.3-distroless
-    profiles:
-      - nvidia
     gpus: all
     cap_add:
       - SYS_ADMIN
