@@ -2,7 +2,7 @@ groups:
   - name: node_exporter_recording
     rules:
       - record: instance:node_cpu_usage:avg
-        expr: avg(rate(node_cpu_seconds_total{mode!='idle'}[5m])) by (instance)
+        expr: 100*( 1- avg(rate(node_cpu_seconds_total{mode='idle'}[5m])) by (instance))
       - record: instance:node_memory_usage_bytes:avg
         expr: avg(node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) by (instance)
       - record: instance:node_memory_usage_percent:avg
